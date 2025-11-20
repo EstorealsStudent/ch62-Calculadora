@@ -7,13 +7,17 @@
 <link rel="stylesheet" href="Styles.css">
     <script src="Script.js" defer></script>
     </head>
-<body class="body">
+<body >
     <h1>Calculadora de Hector</h1>
     <div class="Entrada">
-    <label class="Entradanumero" for="numero1">Número 1:</label>
+        <form>
+    <label class="Entradanumero" for="numero1">Número 1</label>
     <input type="numero" id="numero1"> <br>
-    <label class="Entradanumero" for="numero2">Número 2:</label>
+
+        <label class="Entradanumero" for="numero2">Número 2</label>
     <input type="numero" id="numero2">
+        </form>
+
         
     <select id="Operacion">
         <option value="opcSumar">Sumar</option>
@@ -24,7 +28,7 @@
     </div>
 <div class="CalcResultado">
 
-    <button id="calcular">Calcular</button>
+    <button id="calcular" class="BotonCalcular">Calcular</button>
 
     <h2 id="Resultado">Resultado: </h2>
 </div>
